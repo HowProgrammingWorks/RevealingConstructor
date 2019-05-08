@@ -1,0 +1,2 @@
+# RevealingConstructor
+Revealing Constructor Pattern
