@@ -7,11 +7,13 @@ class Timer {
     this.listener = listener;
     this.timer = null;
   }
+
   start() {
     if (this.enabled) return;
     this.enabled = true;
     this.timer = setInterval(this.listener, this.interval);
   }
+
   stop() {
     if (this.enabled) {
       clearTimeout(this.timer);
