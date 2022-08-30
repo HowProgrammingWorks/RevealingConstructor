@@ -16,7 +16,7 @@ class Timer {
 
   stop() {
     if (this.enabled) {
-      clearTimeout(this.timer);
+      clearInterval(this.timer);
       this.enabled = false;
     }
   }
