@@ -1,7 +1,7 @@
 'use strict';
 
-const fs = require('fs');
-const { Transform } = require('stream');
+const fs = require('node:fs');
+const { Transform } = require('node:stream');
 
 const upperStream = new Transform({
   transform(chunk, encoding, callback) {

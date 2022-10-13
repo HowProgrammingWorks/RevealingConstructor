@@ -1,7 +1,7 @@
 'use strict';
 
-const crypto = require('crypto');
-const { Readable } = require('stream');
+const crypto = require('node:crypto');
+const { Readable } = require('node:stream');
 
 const randomStream = new Readable({
   read(size = 1) {
